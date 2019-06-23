@@ -21,6 +21,12 @@
     <version>2.5</version>
 </dependency>
   </dependencies>
+  <distributionManagement>
+  <repository>
+    <id>releases</id>
+    <url>http://35.193.172.6:8081/nexus/content/repositories/releases</url>
+  </repository>
+</distributionManagement>
   <build>
     <finalName>WebAppCal</finalName>
   </build>
