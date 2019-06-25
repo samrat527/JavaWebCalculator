@@ -28,7 +28,7 @@
    <artifactId>tomcat7-maven-plugin</artifactId>
    <version>2.2</version>
    <configuration>
-  	 <url>http://34.66.249.2:8888/manager/text</url>
+  	 <url>http://localhost:8888/manager/text</url>
   	 <server>TomcatServer</server>
   	 <path>/WebApps</path>
    </configuration>
@@ -38,7 +38,7 @@
   <distributionManagement>
   <repository>
     <id>releases</id>
-    <url>http://35.193.172.6:8081/nexus/content/repositories/releases</url>
+    <url>http://localhost:8081/nexus/content/repositories/releases</url>
   </repository>
 </distributionManagement>
   <build>
